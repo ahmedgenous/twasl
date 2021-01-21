@@ -1,12 +1,12 @@
 <?php
 
-// By @Omar_Real 
+// By @omar_real 
 // By @Send_Message  
 // Ch @touch_t
 
-$botToken = " xxxxx "; // توكن البوت
+$botToken = " 1574472072:AAHsblUbJQQTRykvIU_k1mgDvKIdoYBrPJ4 "; // توكن البوت
 $website = "https://api.telegram.org/bot".$botToken;
-$sudo_id = 325384922; // ايدي المطور
+$sudo_id ="1586868531"; // ايدي المطور
 $update = file_get_contents('php://input');
 $update = json_decode($update, TRUE);
 $file = "banlist.php";
